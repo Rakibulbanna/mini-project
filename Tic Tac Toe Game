@@ -118,7 +118,10 @@ int main () {
         else {
 
         int s;
-     (m%2==0)? cout<<"\n\n\n\nPlease Input the turn of  -->  O  : ":cout<<"\n\n\n\nPlease Input the turn of  -->  X  : ";
+        
+     cout<<"\n\n\n\nPlease Input the turn of  -->  ";
+     (m%2==0)? cout<<"O":cout<<"X";
+     cout<<"  : ";
 
 
         bool x=true;
